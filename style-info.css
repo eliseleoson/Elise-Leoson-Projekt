@@ -1,0 +1,35 @@
+body {
+    background-color: #393939;
+}
+
+header {
+    text-align: center;
+    font-size: 4vmax;
+    background-color: #B7Bfcd;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav {
+    text-align: center;
+    font-size: 1.5vmax;
+    background-color: #B7Bfcd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #393939;
+}
+
+.navbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partpage {
+    flex: 20%;
+    margin-bottom: 2%;
+}
