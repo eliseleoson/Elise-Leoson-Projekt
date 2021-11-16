@@ -1,36 +1,79 @@
 body {
-    background-color: #393939;
-    margin: 0;
+  background-color: #393939;
+  margin: 0;
 }
 
 header {
-    text-align: center;
-    font-size: 4vmax;
-    background-color: #B7Bfcd;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+  text-align: center;
+  font-size: 4vmax;
+  background-color: #b7bfcd;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 nav {
-    text-align: center;
-    font-size: 1.5vmax;
-    background-color: #B7Bfcd;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 1.5vmax;
+  background-color: #b7bfcd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: #393939;
+a {
+  text-decoration: none;
+  color: #393939;
 }
 
 .navbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .partpage {
-    flex: 20%;
-    margin-bottom: 2%;
+  flex: 20%;
+  margin-bottom: 2%;
+}
+
+main {
+  text-align: center;
+  font-family: sans-serif;
+  color: #c5c5c5;
+}
+
+.itemdetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.partsection {
+  flex: 0 50%;
+}
+
+img {
+  width: 40vw;
+  margin: 4%;
+}
+
+select {
+  display: block;
+  width: 10vw;
+  height: 5vh;
+  margin: auto;
+  text-align: center;
+  color: #393939;
+  background-color: #c5c5c5;
+}
+
+button {
+  text-align: center;
+  font-size: 1.5vmax;
+  margin-top: 5%;
+  color: #393939;
+  background-color: #c5c5c5;
+  border: 0;
+  width: 17vw;
+  height: 10vh;
 }
