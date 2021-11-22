@@ -44,21 +44,22 @@ main {
 .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 img {
-    width: 30vmax;
+    width: 100%;
 }
 
 .itempic {
-    width: 30%;
+    width: 40%;
     margin-bottom: 2%; 
 }
 
 .itemdetail {
-    width: 30%;
+    width: 40%;
     text-align: center;
     color: #c5c5c5;
+    font-size: 1.5vmax;
 }
 

@@ -86,16 +86,34 @@ footer {
     padding-top: 5vh;
 }
 
+.endcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .socialmedia {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 40%;
 }
 
 .logo {
-    width: 2vw;
+    width: 2.5vmax;
     margin: 1.5vmax;
     
+}
+
+.payment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+
+.bank {
+    width: 5vw;
+    margin: 1.5vmax;
 }
 
 h2 {
