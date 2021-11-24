@@ -49,15 +49,18 @@ main {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 .itempic {
     width: 40%;
+    height: auto;
     margin-bottom: 2%; 
 }
 
 .itemdetail {
     width: 40%;
+    height: auto;
     text-align: center;
     color: #c5c5c5;
     font-size: 1.5vmax;

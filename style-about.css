@@ -80,8 +80,8 @@ footer {
 
 .logo {
     width: 3vmax;
+    height: auto;
     margin: 1.5vmax;
-    
 }
 
 .payment {
@@ -93,6 +93,7 @@ footer {
 
 .bank {
     width: 4.5vw;
+    height: auto;
     margin: 1.5vmax;
 }
 h2 {

@@ -58,8 +58,8 @@ main {
     padding: 1vmax;
     color: #F0f0f0;
     width: 60%;
-    margin-left: 20%;
     padding-bottom: 3vh;
+    margin-left: 20%;
 }
 
 button {
@@ -75,6 +75,7 @@ button {
 
 img {
     width: 50vw;
+    height: auto;
 }
 
 footer {
@@ -100,8 +101,8 @@ footer {
 
 .logo {
     width: 3vmax;
+    height: auto;
     margin: 1.5vmax;
-    
 }
 
 .payment {
@@ -113,6 +114,7 @@ footer {
 
 .bank {
     width: 4.5vw;
+    height: auto;
     margin: 1.5vmax;
 }
 
