@@ -1,0 +1,90 @@
+body {
+  background-color: #393939;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 4vmax;
+  background-color: #b7bfcd;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.5vmax;
+  background-color: #b7bfcd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+}
+
+.navbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partpage {
+  flex: 20%;
+  margin-bottom: 2%;
+}
+
+main {
+  text-align: center;
+  font-family: sans-serif;
+  color: #c5c5c5;
+}
+
+.itemdetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.partsection {
+  flex: 0 50%;
+}
+
+img {
+  width: 40vw;
+  height: auto;
+  margin: 4%;
+}
+
+h3{
+  font-size: 2.8vmax;
+}
+
+p{
+font-size: 1.6vmax;
+}
+
+select {
+  display: block;
+  font-size: 1.3vmax;
+  width: 10vw;
+  height: 5vh;
+  margin: auto;
+  text-align: center;
+  color: #393939;
+  background-color: #c5c5c5;
+}
+
+button {
+  text-align: center;
+  font-size: 1.5vmax;
+  margin-top: 5%;
+  color: #393939;
+  background-color: #c5c5c5;
+  border: 0;
+  width: 15vw;
+  height: 7vh;
+}
